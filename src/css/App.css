@@ -1,0 +1,38 @@
+.counter {
+  border: 2px solid red;
+  width: 150px;
+  height: 100;
+}
+
+.counter > * {
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+}
+.usersListConteiner {
+  text-align: center;
+  margin: 20px;
+}
+.userCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-top: 5px;
+  box-shadow: 1px 1px 3px rgb(22, 37, 43);
+  border-radius: 10px;
+  background: linear-gradient(rgb(242, 252, 255), rgb(212, 249, 255));
+}
+
+.userCard > img {
+  border-radius: 50%;
+  border: 1px solid grey;
+  background-color: rgba(209, 209, 209, 0.534);
+}
+.userCard .userName {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.userCard .userComment {
+  color: rgb(85, 85, 85);
+}
